@@ -1,38 +1,345 @@
-.App {
-  text-align: center;
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  background-color: black;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.IMG1{
+  width: 150px;
+  height: 120px;
+  margin-left: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.Lista{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display:flex;
+  margin-left: 250px;
+  margin-top: -70px;
+  width: 750px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: pink 2px 2px 5px 2px;
+}
+.A{
+  margin-left: 90px;
+}
+.B{
+  margin-left: 90px;
+}
+.C{
+  margin-left: 90px;
+}
+.Txt1{
   color: white;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.Isesion{
+  color: white;
+  margin-left: 1100px;
+  margin-top: -50px;
+  width: 100px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  align-content: center;
+  transition: transform 0.3s ease;
+  box-shadow: red 2px 2px 7px 2px;
+}
+.Isesion:hover{
+  box-shadow: rgb(0, 195, 255) 2px 2px 7px 2px;
+  transform: scale(1.03);
+
+}
+.Registro{
+  color: white;
+  margin-left: 1265px;
+  margin-top: -49px;
+  height: 30px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  align-content: center;
+  transition: transform 0.3s ease;
+  box-shadow: red 2px 2px 7px 2px;
+}
+.Registro:hover{
+  box-shadow: rgb(0, 183, 255) 2px 2px 7px 2px;
+  transform: scale(1.03);
+
+}
+.IMG2{
+  width: 40px;
+  height: 30px;
+  position:absolute;
+  margin-left: 1055px;
+  margin-top: -48px;
+}
+.IMG3{
+  position: absolute;
+  width: 45px;
+  height: 35px;
+  margin-left: 1215px;
+  margin-top: -48px;
+}
+.ImgCont{
+  margin-left: 42px;
+  margin-top: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 1400px;
+  height: 500px;
+  background-color: black;
+  
+}
+.IMG4{
+  position: absolute;
+  height: 480px;
+  width: 250px;
+  margin-left: 25px;
+  margin-top: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  box-shadow: rgb(56, 139, 235) 2px 2px 10px 5px;
+}
+.IMG4:hover{
+  opacity: 0.7;
+  transform: scale(1.03);
+}
+.IMG5{
+  position: absolute;
+  height: 480px;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 300px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  box-shadow: rgb(235, 56, 229) 2px 2px 10px 5px;
+}
+.IMG5:hover{
+  opacity: 0.7;
+  transform: scale(1.03);
+}
+.IMG6{
+  position: absolute;
+  height: 480px;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 575px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  box-shadow: rgb(56, 235, 146) 2px 2px 10px 5px;
+
+}
+.IMG6:hover{
+  opacity: 0.7;
+  transform: scale(1.03);
+}
+.IMG7{
+  position: absolute;
+  height: 480px;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 850px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  box-shadow: rgb(235, 196, 56) 2px 2px 10px 5px;
+
+}
+.IMG7:hover{
+  opacity: 0.7;
+  transform: scale(1.03);
+}
+.IMG8{
+  position: absolute;
+  height: 480px;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 1125px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  box-shadow: rgb(235, 56, 59) 2px 2px 10px 5px;
+  
+}
+.IMG8:hover{
+  opacity: 0.7;
+  transform: scale(1.03);
 }
 
-.App-link {
-  color: #61dafb;
+.Txt2{
+  color: white;
+  width: 220px;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Txt3{
+  color: white;
+  width: 220px;
+  margin-left: 260px;
+  margin-top: -148px;
+  text-align: center;
+  border-radius: 5px;
+}
+.Txt4{
+  color: white;
+  width: 220px;
+  margin-left: 500px;
+  margin-top: -148px;
+  text-align: center;
+  border-radius: 5px;
+}
+.Txt5{
+  color: white;
+  width: 220px;
+  margin-left: 740px;
+  margin-top: -127px;
+  text-align: center;
+  border-radius: 5px;
+}
+.Txt6{
+  color: white;
+  width: 220px;
+  margin-left: 980px;
+  margin-top: -127px;
+  text-align: center;
+  border-radius: 5px;
+}
+.Txt7{
+  color: white;
+  width: 220px;
+  height: 150px;
+  margin-top: -148px;
+  margin-left: 1225px;
+  text-align: center;
+  border-radius: 5px;
+}
+.IMG9{
+  position: absolute;
+  width: 220px;
+  height: 200px;
+  margin-left: -143px;
+  margin-top: 23px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.IMG9:hover{
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+.IMG10{
+  position: absolute;
+  width: 222px;
+  height: 200px;
+  margin-left: -151px;
+  margin-top: 21px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.IMG10:hover{
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+.IMG11{
+  position: absolute;
+  width: 224px;
+  height: 200px;
+  margin-left: -191px;
+  margin-top: 41px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.IMG11:hover{
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+.IMG12{
+  position: absolute;
+  width: 224px;
+  height: 200px;
+  margin-left: -199px;
+  margin-top: 41px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.IMG12:hover{
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+.IMG13{
+  position: absolute;
+  width: 224px;
+  height: 200px;
+  margin-left: -193px;
+  margin-top: 22px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.IMG13:hover{
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+.IMG14{
+  position: absolute;
+  width: 224px;
+  height: 200px;
+  margin-left: -128px;
+  margin-top: -1px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.IMG14:hover{
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+.Footer{
+  border: spx solid white;
+  background-color: rgba(33, 32, 32, 0.329);
+  margin-top: 300px;
+  width: 1400px;
+  height: 200px;
+  margin-left: 35px;
+}
+.Contactos{
+  display: flex;
+  margin-bottom: -10px;
+}
+.D{
+  color: white;
+  margin-left: 190px;
+  margin-top: 40px;
+}
+.E{
+  color: white;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.F{
+  color: white;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.IMG15{
+position: absolute;
+width: 50px;
+height: 40px;
+margin-left: 10px;
+margin-top: -8px;
+}
+.IMG16{
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: -8px;
+}
+.IMG17{
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  margin-left: 26px;
+  margin-top: -8px;
 }
